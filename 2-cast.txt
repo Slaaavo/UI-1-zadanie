@@ -1,0 +1,18 @@
+Opis znalostného konateľa
+
+Ciele
+
+Nanoboty sú vpustené do organizmu za účelom ozdravenia organizmu a to odstránením rakovinotvorných buniek, prítomných v organizme. Takisto je cieľom, aby bolo minimalizované množstvo zdravých buniek, ktoré boli zničené pri odstraňovaní rakovinotvorných buniek. Teda je dôležité aby pri odstraňovaní chorých buniek neboli poškodené a znižené aj zdravé bunky. Nakoniec ide aj o minimalizáciu času potrebného na nájdenie rakovinotvornej bunky od doby jej vzniku.
+
+Vnemy
+
+Vstupmi pre nanobota sú rôzne chemické látky, ktoré nájde v bunkách a ich koncentrácia, tvar bunky, sekvencia DNA, ktorú vie prečítať.
+
+Akcie
+
+Nanobot musí na základe vnemov vedieť reagovať, a to buď zničením, alebo ponechaním bunky. Rovnako musí vedieť komunikovať ostatným nanobotom, DNA sekvenciu, ktorú našiel v nejakej konkrétnej bunke, aby na základe tejto analýzy zistili, ktorá DNA je nepoškodená.
+
+3.časť
+
+Nanobot musí byť schopný analyzovať prostredie na základe správania sa rakovinotvorných buniek. Jednou z metód je sledovanie spotreby cukru. Rakovinotvorné bunky majú totiž oveľa väčšiu spotrebu cukru. Takisto je možné tieto bunky detekovať na základe toho, že majú poškodenú DNA. Nanobot môže vyhľadať a prečítať DNA v bunkovom jadre a na základe toho vyhodnotiť, či je bunka chorá, alebo nie.[http://sk.wikipedia.org/wiki/Zhubný_nádor, Cancer Cell Metabolism: Warburg and Beyond]
+
