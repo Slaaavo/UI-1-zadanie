@@ -34,7 +34,7 @@
 
 
 \begin{abstract}
-
+Rakovina je zákerná choroba a dodnes sú mnohé jej formy nevyliečiteľné. Pozrime sa na to, ako by sa tento problém dal riešiť pomocou umelej inteligencie a pokročilej technológie.
 
 \end{abstract}
 
@@ -44,12 +44,13 @@ Problémove prostredie je ľuďské telo. Je totiž veľmi zratiteľné. Stačí
 
 Ľuďské telo je veľmi komplikované a preto treba veľmi inteligetné riešenie. Je potrebné rozoznať zdravé bunky od tých chorých, aby sa pacientovi náhodou neprihoršilo. Ďalšia nevyhnutnosť je dobrý transportný systém. Telo už taký má, je to krvný obeh. Avšak krvný obeh ponúka plejádu možností, veľa rôznych ciest. Ktorou sa vydať? Táto otázka potrebuje premyslenú odpoveď, aby bola liečba čo najefektívnejšia.
 
-Veľký problém taktiež predstavuje imunitný systém ľuďského tela. Ako presvedčiť telo, že nanoboty sú preň dobré aby ich nezničil? Nie je to vôbec ľahké, keď si uvedomíme, že niekedy je aj transplantovaný orgán odvrhnutý, teda niečo prirodzené telu. A tu je treba aby prijalo niečo syntetické. Je to jeden zo základných problémov, ktorý treba vyriešiť, aby vôbec celý tento výskum mal zmysel.
+Veľký problém taktiež predstavuje imunitný systém ľuďského tela. Ako presvedčiť telo, že nanoboty sú preň dobré, aby ich nezničilo? Nie je to vôbec ľahké, keď si uvedomíme, že niekedy je aj transplantovaný orgán odvrhnutý, teda niečo prirodzené telu. A tu je treba aby prijalo niečo syntetické. Je to jeden zo základných problémov, ktorý treba vyriešiť, aby vôbec celý tento výskum mal zmysel.
 
 \section{Opis znalostného konateľa}
 
 \subsection{Ciele}
 Nanoboty sú vpustené do organizmu za účelom ozdravenia organizmu a to odstránením rakovinotvorných buniek prítomných v organizme. Takisto je cieľom, aby bolo minimalizované množstvo zdravých buniek, ktoré boli zničené pri odstraňovaní rakovinotvorných buniek. Teda je dôležité aby pri odstraňovaní chorých buniek neboli poškodené a znižené aj zdravé bunky. Nakoniec ide aj o minimalizáciu času potrebného na nájdenie rakovinotvornej bunky od doby jej vzniku.
+%znížené zdravé bunky? Znie to divne
 
 \subsection{Vnemy}
 Vstupmi pre nanobota sú rôzne chemické látky, ktoré nájde v bunkách a ich koncentrácia, tvar bunky, sekvencia DNA, ktorú vie prečítať. Keďže nanobot musí vedieť komunikovať s ostatnými nanobotmi, tak je pre neho vstupom aj ľubovoľná informácia od ostatných nanobotov. Ide najmä o informácie o sekvenciách DNA a o koncentrácii rôznych chemických látok v krvi.
@@ -62,13 +63,18 @@ Nanobot musí na základe vnemov vedieť reagovať, a to buď zničením, alebo 
 \label{sec:znalosti}
 Rakovinotvorné bunky majú oveľa väčšiu spotrebu cukru. Takisto je možné tieto bunky detekovať na základe toho, že majú poškodenú DNA. Nanobot môže vyhľadať a prečítať DNA v bunkovom jadre a na základe toho vyhodnotiť, či je bunka chorá, alebo nie.
 \cite{Wikipedia-nador,cancer-cell-metabolism}
-Potom sa môže rozhondúť bunku zničiť alebo informovať ďalších nanobotov o náleze. Teda nanobot môže nielen bunku objaviť, ale aj získať informáciu o jej objavení iným nanobotom, ktorý si môže vyžiadať asistenciu. Kde je jedna chorá bunka, tam ich bude pravdepodobne viac. S tým je spojená aj informácia o polohe nanobota. Musí vedieť, kde je, aby mohol zistiť ako sa má dostať na prípadné nálezisko, a aby vedel, že tam už je, ked príde.
+Nanobot bude komunikovať so serverom, ktorý mu po čase dodá vzorku DNA na porovnanie, ako aj povolené odchýlky od vzorky. Dovtedy nanobot len zbiera informácie a posiela ich na server. Keď obdrží vzorku, už vyhodnocuje bunku.
+
+Potom sa môže rozhondúť bunku zničiť alebo informovať ďalších nanobotov o náleze. Teda nanobot môže nielen bunku objaviť, ale aj získať informáciu o jej objavení iným nanobotom, ktorý si môže vyžiadať asistenciu. Zničenie bunky vôbec nemusí byť jednoduchá záležitosť, práve naopak. Je teda dôležité, aby si nanoboti vedeli rozumným spôsobom rozdeliť prácu. Ale na čo mi je vedieť, že mám naliať vodu do fúrika, keď robíme betón, ak neviem kedy? S nanobotmi je to rovnaké. Musia si rozdeliť prácu, ale aj vedieť organizovať svoju činnosť v čase. Na to je zas najlepší nezávislý pozorovateľ, nejaký menežér. V tomto prípade je to server, s ktorým nanoboti komunikujú. On má podrobný prehľad o každom nanobotovi. 
+
+Kde je jedna chorá bunka, tam ich bude pravdepodobne viac. S tým je spojená aj informácia o polohe nanobota. Musí vedieť, kde je, aby mohol zistiť ako sa má dostať na prípadné nálezisko, a aby vedel, že tam už je, ked príde.
 
 Je dôležité, aby nanobot vedel prijímať aj príkazy zvonka. Teda ak bola liečba úspešná, je dobré nanobotov deaktivovať. Nanobot prijme informáciu na deaktiváciu a musí sa zariadiť tak, aby už v tele nezavadzal. Teda nie len prestať fungovať, ale umožniť jednoduché vylúčenie z tela.
 
 \section{Správania konateľa}
 \label{sec:spravanie}
 Nanobot musí byť schopný analyzovať prostredie na základe správania sa rakovinových buniek. Ako bolo opísané v časti \ref{sec:znalosti} rakovinové bunky majú vyššiu spotrebu cukru a takisto majú poškodenú DNA. Správanie nanobotov teda vychádza z týchto dvoch predpokladov.
+%Treba dorobiť tú replikáciu
 
 Množstvo cukru, ktoré normálne bunky spotrebujú kolíše v závislosti od jedinca a jeho fyzickej a psychickej aktivity, typu bunky a ďalších iných faktorov. V prípade zvýšenej fyzickej aktivity rastie aj konzumácia cukru. Cukor konzumujú najmä mozgové bunky, červené krvinky, alebo svalové bunky. Tieto faktory sú teda problematické pri určovaní, či je bunka rakovinová, alebo nie je.
 
@@ -79,11 +85,11 @@ Všetky tieto problémy vedú k tomu, že nanoboty musia byť schopné komuniká
 
 \begin{figure}[tbh]
 \label{f:spravanie}
-\centering1
+\centering
 \includegraphics[scale=0.9]{spravanie.pdf}
 \caption{Správanie nanobota v organizme}
 \end{figure}
-
+%nebolo by lepsie tie vetviace krabicky spravit ako kosostvorce?
 \section{Záver}
 
 Problematika liečby rakoviny je veľmi obšírna a vyžaduje si inteligetné riešenie. Sú s tým spojené aj mnohé etické a filozofické otázky, taktiež aj bezpečnostné riziká. Čo ak sa niekomu podarí preprogramovať nanobotov, aby ničil zdravé bunky namiesto chorých? Budú ľudia ochotní takto splynúť s technológiou? Tieto a aj rôzne ďalšie otázky sú nezanedbateľné pri výskume tohto typu. Treba zhodnotiť, či potenciálny zisk vyváži riziko.
